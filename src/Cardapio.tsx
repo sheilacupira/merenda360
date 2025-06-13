@@ -7,7 +7,7 @@ const navigation = useNavigation();
 export function Cardapio(){
     return(
      <SafeAreaView>
-        <Text>Aque vai o Cardapio</Text>
+        <Text>Aqui vai o Cardapio</Text>
      </SafeAreaView>
     )
 }

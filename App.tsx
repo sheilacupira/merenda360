@@ -7,13 +7,7 @@ import { Login } from './src/Login';
 import { ModoCozinha } from './src/ModoCozinha';
 import { Cardapio } from './src/Cardapio';
 import { Estoque } from './src/Estoque';
-
-
-export type RootStackParamList = {
-  Login: undefined;
-  ModoCozinha: undefined;
-};
-
+import { RootStackParamList } from './src/routes/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

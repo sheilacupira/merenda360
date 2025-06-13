@@ -2,4 +2,6 @@
 export type RootStackParamList = {
   Login: undefined;
   ModoCozinha: undefined;
+  Estoque: undefined;
+  Cardapio: undefined;
 };
