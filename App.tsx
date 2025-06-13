@@ -21,12 +21,12 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-       <Stack.Navigator screenOptions={{ headerShown: false }}>
-  <Stack.Screen name="Login" component={Login} />
-  <Stack.Screen name="ModoCozinha" component={ModoCozinha} />
-  <Stack.Screen name="Estoque" component={Estoque} />
-  <Stack.Screen name="Cardapio" component={Cardapio} />
-</Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="Login" component={Login} />
+          <Stack.Screen name="ModoCozinha" component={ModoCozinha} />
+          <Stack.Screen name="Estoque" component={Estoque} />
+          <Stack.Screen name="Cardapio" component={Cardapio} />
+        </Stack.Navigator>
 
       </NavigationContainer>
     </SafeAreaProvider>
