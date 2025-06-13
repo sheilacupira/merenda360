@@ -5,8 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Login } from './src/Login';
 import { ModoCozinha } from './src/ModoCozinha';
-import { Cardapio } from './src/Cardapio';
-import { Estoque } from './src/Estoque';
+import { AppDrawer } from './src/routes/AppDrawer';
 import { RootStackParamList } from './src/routes/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -18,8 +17,7 @@ export default function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="ModoCozinha" component={ModoCozinha} />
-          <Stack.Screen name="Estoque" component={Estoque} />
-          <Stack.Screen name="Cardapio" component={Cardapio} />
+          <Stack.Screen name="AppDrawer" component={AppDrawer} />
         </Stack.Navigator>
 
       </NavigationContainer>

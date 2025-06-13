@@ -16,13 +16,13 @@ export function ModoCozinha() {
       <BotaoCard
         titulo="VER CARDÁPIO"
         iconName="restaurant-outline"
-        onPress={() => navigation.navigate('Cardapio')}
+        onPress={() => navigation.navigate('AppDrawer', { screen: 'Cardapio' })}
       />
 
       <BotaoCard
         titulo="VER ESTOQUE"
         iconName="cube-outline"
-        onPress={() => navigation.navigate('Estoque')}
+        onPress={() => navigation.navigate('AppDrawer', { screen: 'Estoque' })}
       />
     </SafeAreaView>
   );
